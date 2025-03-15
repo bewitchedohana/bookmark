@@ -1,3 +1,12 @@
-export const Home = () => (<div></div>)
+"use client"
+
+export const Home = () => {
+  console.log("Home");
+  return (
+    <div>
+      <h1>Home</h1>
+    </div>
+  );
+}
 
 export default Home;
